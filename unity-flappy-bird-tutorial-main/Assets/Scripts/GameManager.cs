@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    private Player player;
+    private FlappyBirdAgent player;
     private Spawner spawner;
 
     public Text scoreText;
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
 
-        player = FindObjectOfType<Player>();
+        player = FindObjectOfType<FlappyBirdAgent>();
         spawner = FindObjectOfType<Spawner>();
 
         Pause();
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         gameOver.SetActive(false);
 
         Time.timeScale = 1f;
-        player.enabled = true;
+        //player.enabled = true;
 
         Pipes[] pipes = FindObjectsOfType<Pipes>();
 
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
     public void Pause()
     {
         Time.timeScale = 0f;
-        player.enabled = false;
+        //player.enabled = false;
     }
 
     public void IncreaseScore()

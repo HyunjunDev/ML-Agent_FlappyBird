@@ -1,0 +1,48 @@
+{
+    "FlappyBird": {
+        "checkpoints": [
+            {
+                "steps": 3499948,
+                "file_path": "results\\test2\\FlappyBird\\FlappyBird-3499948.onnx",
+                "reward": 50.81699765175581,
+                "creation_time": 1677182624.8044872
+            },
+            {
+                "steps": 3999994,
+                "file_path": "results\\test2\\FlappyBird\\FlappyBird-3999994.onnx",
+                "reward": 47.879997766017915,
+                "creation_time": 1677184036.241043
+            },
+            {
+                "steps": 4499978,
+                "file_path": "results\\test2\\FlappyBird\\FlappyBird-4499978.onnx",
+                "reward": 59.712497321888804,
+                "creation_time": 1677185428.5411615
+            },
+            {
+                "steps": 4999940,
+                "file_path": "results\\test2\\FlappyBird\\FlappyBird-4999940.onnx",
+                "reward": null,
+                "creation_time": 1677186839.9806933
+            },
+            {
+                "steps": 5000004,
+                "file_path": "results\\test2\\FlappyBird\\FlappyBird-5000004.onnx",
+                "reward": null,
+                "creation_time": 1677186840.1599936
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000004,
+            "file_path": "results\\test2\\FlappyBird.onnx",
+            "reward": null,
+            "creation_time": 1677186840.1599936
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": -1
+    }
+}
